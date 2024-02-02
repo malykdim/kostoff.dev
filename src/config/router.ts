@@ -15,7 +15,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/kostoff.dev/'),
+  history: createWebHistory(),
   routes,
 });
 
