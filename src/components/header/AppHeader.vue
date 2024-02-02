@@ -3,8 +3,11 @@
         <router-link to="/" class="link">
               <img src="../../../public/vite.svg" alt="logo" class="logo">
         </router-link>
+        <router-link to="/admin" class="link">
+             auth
+        </router-link>
         <router-link to="/:pathMatch(.*)*" class="link">
-             NotFound
+             notFound
         </router-link>
     </header>
 </template>
