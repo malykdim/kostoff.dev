@@ -10,7 +10,7 @@
     "last 2 versions"
   ],
   "scripts": {
-    "predeploy": "npm run generate-images && npm run build",
+    "predeploy": "npm run build",
     "deploy": "vite build && gh-pages -d dist",
     "clean": "gh-pages-clean",
     "dev": "vite",
