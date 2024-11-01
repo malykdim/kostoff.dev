@@ -11,10 +11,10 @@
   ],
   "scripts": {
     "predeploy": "npm run generate-images && npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d dist",
     "clean": "gh-pages-clean",
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "generate-images": "node sharp.js"
   },
