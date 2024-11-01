@@ -8,23 +8,23 @@ const route = useRoute()
   <nav class="nav-regular" aria-label="Main Navigation">
     <RouterLink
       v-if="route.path !== '/'"
-      to="/"
+      to="/kostoff.dev/"
       class="link"
       aria-label="About"
     >
       about
     </RouterLink>
     <RouterLink
-      v-if="route.path !== '/projects'"
-      to="/projects"
+      v-if="route.path !== '/kostoff.dev/projects'"
+      to="/kostoff.dev/projects"
       class="link"
       aria-label="Projects"
     >
       projects
     </RouterLink>
     <RouterLink
-      v-if="route.path !== '/contact'"
-      to="/contact"
+      v-if="route.path !== '/kostoff.dev/contact'"
+      to="/kostoff.dev/contact"
       class="link"
       aria-label="Contact"
     >

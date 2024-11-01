@@ -24,7 +24,7 @@ const formattedTags = computed(() => {
       <div class="project-image">
         <picture>
           <img
-            :src="`/assets/images/${item.thumbnailBaseName}-1024w.jpg`"
+            :src="`/kostoff.dev/assets/images/${item.thumbnailBaseName}-1024w.jpg`"
             :alt="item.name"
             class="cropped-image"
           >
