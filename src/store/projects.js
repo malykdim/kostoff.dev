@@ -14,14 +14,14 @@ const projects = [
       { text: 'View Statistics', icon: 'pi pi-chart-bar' },
     ],
     gallery: [
-      '/assets/images/playlists/playlists-auth-1024w.jpg',
-      '/assets/images/playlists/playlists-list-1024w.jpg',
-      '/assets/images/playlists/playlists-item-guest-1024w.jpg',
-      '/assets/images/playlists/playlists-create-1024w.jpg',
-      '/assets/images/playlists/playlists-item-owner-1024w.jpg',
-      '/assets/images/playlists/playlists-item-owner-add-1024w.jpg',
-      '/assets/images/playlists/playlists-profile-1024w.jpg',
-      '/assets/images/playlists/playlists-thumbnail-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-auth-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-list-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-item-guest-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-create-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-item-owner-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-item-owner-add-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-profile-1024w.jpg',
+      '/kostoff.dev/assets/images/playlists/playlists-thumbnail-1024w.jpg',
     ],
   },
   {
@@ -38,10 +38,10 @@ const projects = [
       { text: 'CRUD operations', icon: 'pi pi-pencil' },
     ],
     gallery: [
-      '/assets/images/notes/notes-login-1024w.jpg',
-      '/assets/images/notes/notes-thumbnail-1024w.jpg',
-      '/assets/images/notes/notes-edit-1024w.jpg',
-      '/assets/images/notes/notes-stats-1024w.jpg',
+      '/kostoff.dev/assets/images/notes/notes-login-1024w.jpg',
+      '/kostoff.dev/assets/images/notes/notes-thumbnail-1024w.jpg',
+      '/kostoff.dev/assets/images/notes/notes-edit-1024w.jpg',
+      '/kostoff.dev/assets/images/notes/notes-stats-1024w.jpg',
     ],
   },
   {
@@ -57,32 +57,12 @@ const projects = [
       { text: 'CRUD operations for Admin', icon: 'pi pi-pencil' },
     ],
     gallery: [
-      '/assets/images/mosaics/mosaics-home-1024w.jpg',
-      '/assets/images/mosaics/mosaics-thumbnail-1024w.jpg',
-      '/assets/images/mosaics/mosaics-details-1024w.jpg',
-      '/assets/images/mosaics/mosaics-contact-1024w.jpg',
+      '/kostoff.dev/assets/images/mosaics/mosaics-home-1024w.jpg',
+      '/kostoff.dev/assets/images/mosaics/mosaics-thumbnail-1024w.jpg',
+      '/kostoff.dev/assets/images/mosaics/mosaics-details-1024w.jpg',
+      '/kostoff.dev/assets/images/mosaics/mosaics-contact-1024w.jpg',
     ],
   },
-  //   {
-  //     id: 5,
-  //     name: '',
-  //     image: '',
-  //     description: '',
-  //     gitHub: '',
-  //     link: '',
-  //     tags: ['', ''],
-  //     features: ['', '', '', ''],
-  //   },
-
-  /* List of icons I'd like to use:
-  pi-user
-  pi-users
-  pi-arrow-right-arrow-left
-  pi-cloud-upload
-  pi-cart-arrow-down
-  pi-search
-  pi-at
-  */
 ]
 
 export { projects }
