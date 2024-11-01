@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: 'YT-Playlists',
-    thumbnailBaseName: 'playlists/playlists-thumbnail',
+    thumbnailBaseName: '/kostoff.dev/assets/images/playlists/playlists-thumbnail',
     description: 'An app for organizing and sharing playlists',
     gitHub: 'https://github.com/malykdim/yt-playlists',
     link: 'https://yt-playlist-7fa47.web.app/login',
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 2,
     name: 'Notes',
-    thumbnailBaseName: 'notes/notes-thumbnail',
+    thumbnailBaseName: '/kostoff.dev/assets/images/notes/notes-thumbnail',
     description: 'A note taking app',
     gitHub: 'https://github.com/malykdim/notes',
     link: 'https://notes-1748b.web.app/',
@@ -47,7 +47,7 @@ const projects = [
   {
     id: 3,
     name: 'The Stone Magic',
-    thumbnailBaseName: 'mosaics/mosaics-thumbnail',
+    thumbnailBaseName: '/kostoff.dev/assets/images/mosaics/mosaics-thumbnail',
     description: 'A virtual gallery for exquisite mosaic panneaux',
     gitHub: 'https://github.com/malykdim/thestonemagic',
     link: 'https://malykdim.github.io/thestonemagic/',
