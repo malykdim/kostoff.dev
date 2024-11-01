@@ -1,22 +1,27 @@
-<template>
-    <footer class="footer">
-        <h2>footer</h2>
-    </footer>
-</template>
-
 <script setup lang="ts">
-
 </script>
 
+<template>
+  <footer class="footer">
+    <span>kostoff.dev &copy; 2024</span>
+  </footer>
+</template>
+
 <style scoped lang="scss">
+@import '../../assets/style.scss';
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
 
-    border: 1px solid #ddd;
-    padding: 1rem 3rem;
+  span {
+    font-size: 12px;
+    color: var(--primary);
+  }
+}
 
+@media screen and (max-width: 480px) {
+  .footer {
+    span {
+      font-size: 10px;
+    }
+  }
 }
 </style>
