@@ -6,13 +6,14 @@ const Contact = () => import('../views/Contact.vue');
 const Projects = () => import('../views/projects/Projects.vue');
 const Details = () => import('../views/details/ProjectDetails.vue');
 
+const base = '/kostoff.dev'
 const routes = [
-  { path: '/', name: 'home', component: Home },
-  { path: '/projects', name: 'projects', component: Projects },
-  { path: '/projects/:id', name: 'details', component: Details, props: true },
-  { path: '/contact', name: 'contact', component: Contact },
+  { path: base, name: 'home', component: Home },
+  { path: `${base}/projects`, name: 'projects', component: Projects },
+  { path: `${base}/projects/:id`, name: 'details', component: Details, props: true },
+  { path: `${base}/contact`, name: 'contact', component: Contact },
   {
-    path: '/:pathMatch(.*)*',
+    path: `${base}/:pathMatch(.*)*`,
     name: 'NotFound',
     component: NotFound,
   },
