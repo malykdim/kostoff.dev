@@ -47,20 +47,22 @@ const projects = [
   {
     id: 3,
     name: 'The Stone Magic',
-    thumbnailBaseName: '/assets/images/mosaics/mosaics-thumbnail',
+    thumbnailBaseName: '/assets/images/mosaics/home.png',
     description: 'A virtual gallery for exquisite mosaic panneaux',
-    gitHub: 'https://github.com/malykdim/thestonemagic',
-    link: 'https://malykdim.github.io/thestonemagic/',
-    tags: ['React', 'Back4App'],
+    gitHub: 'https://github.com/malykdim/kostoff.dev',
+    link: 'https://kostova.netlify.app/',
+    tags: ['Vue 3', 'Netlify'],
     features: [
       { text: 'User authentication', icon: 'pi pi-user' },
       { text: 'CRUD operations for Admin', icon: 'pi pi-pencil' },
     ],
     gallery: [
-      '/assets/images/mosaics/mosaics-home-1024w.jpg',
-      '/assets/images/mosaics/mosaics-thumbnail-1024w.jpg',
-      '/assets/images/mosaics/mosaics-details-1024w.jpg',
-      '/assets/images/mosaics/mosaics-contact-1024w.jpg',
+      '/assets/images/mosaics/home.png',
+      '/assets/images/mosaics/gallery.png',
+      '/assets/images/mosaics/details.png',
+      '/assets/images/mosaics/login.png',
+      '/assets/images/mosaics/dashboard.png',
+      '/assets/images/mosaics/edit.png'
     ],
   },
 ]
