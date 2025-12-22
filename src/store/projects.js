@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: 'YT-Playlists',
-    thumbnailBaseName: '/assets/images/playlists/playlists-thumbnail',
+    thumbnailBaseName: '/assets/images/playlists/playlists-thumbnail-1024w.jpg',
     description: 'An app for organizing and sharing playlists',
     gitHub: 'https://github.com/malykdim/yt-playlists',
     link: 'https://yt-playlist-7fa47.web.app/login',
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 2,
     name: 'Notes',
-    thumbnailBaseName: '/assets/images/notes/notes-thumbnail',
+    thumbnailBaseName: '/assets/images/notes/notes-thumbnail-1024w.jpg',
     description: 'A note taking app',
     gitHub: 'https://github.com/malykdim/notes',
     link: 'https://notes-1748b.web.app/',
@@ -57,12 +57,12 @@ const projects = [
       { text: 'CRUD operations for Admin', icon: 'pi pi-pencil' },
     ],
     gallery: [
-      '/assets/images/mosaics/home.png',
-      '/assets/images/mosaics/gallery.png',
-      '/assets/images/mosaics/details.png',
-      '/assets/images/mosaics/login.png',
-      '/assets/images/mosaics/dashboard.png',
-      '/assets/images/mosaics/edit.png'
+      '/assets/images/mosaics/home.jpg',
+      '/assets/images/mosaics/gallery.jpg',
+      '/assets/images/mosaics/details.jpg',
+      '/assets/images/mosaics/login.jpg',
+      '/assets/images/mosaics/dashboard.jpg',
+      '/assets/images/mosaics/edit.jpg'
     ],
   },
 ]
