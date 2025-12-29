@@ -2,7 +2,7 @@
 
 # JS Web Developer Portfolio
 
-![Overview]()
+![Overview](https://github.com/user-attachments/assets/02e7cdac-bcfc-4914-932b-b640bf8527d7)
 <!-- 
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
