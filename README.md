@@ -3,14 +3,3 @@
 (in development)
 
 ![Overview](https://github.com/user-attachments/assets/02e7cdac-bcfc-4914-932b-b640bf8527d7)
-
-<!-- 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-<img width="2023" height="1446" alt="overview" src="https://github.com/user-attachments/assets/02e7cdac-bcfc-4914-932b-b640bf8527d7" />
- -->

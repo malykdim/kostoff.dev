@@ -17,7 +17,6 @@ defineProps(['features'])
 </template>
 
 <style lang="scss" scoped>
-@import '../../../assets/style.scss';
   .preview {
     width: 30%;
     margin: 0 auto;

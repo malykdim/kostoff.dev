@@ -1,0 +1,39 @@
+@use 'core' as *;
+@use 'scoped';
+@use 'tools';
+
+:root {
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: var(--light)
+}
+
+body {
+  background: var(--dark);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--tooltips);
+    background-color: var(--light);
+
+    button {
+      background-color: var(--dark);
+    }
+  }
+}

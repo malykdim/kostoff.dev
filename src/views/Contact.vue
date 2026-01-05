@@ -34,8 +34,7 @@ const { copy, copied } = useClipboard({
 </template>
 
 <style lang="scss" scoped>
-@import '../assets/style.scss';
-
+@use '../assets/styles/tools/tooltip' as tt;
 .contact {
     display: flex;
     flex-direction: column;
@@ -73,7 +72,7 @@ const { copy, copied } = useClipboard({
       }
     }
     .tooltip-right {
-      @include tooltip(right, 15px);
+      @include tt.tooltip(right, 15px);
     }
 }
 </style>

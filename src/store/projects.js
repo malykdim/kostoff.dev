@@ -49,8 +49,8 @@ const projects = [
     name: 'The Stone Magic',
     thumbnailBaseName: '/assets/images/mosaics/home.png',
     description: 'A virtual gallery for exquisite mosaic panneaux',
-    gitHub: 'https://github.com/malykdim/kostoff.dev',
-    link: 'https://kostova.netlify.app/',
+    gitHub: 'https://github.com/malykdim/mosaic',
+    link: 'https://damyanovi.netlify.app/',
     tags: ['Vue 3', 'Netlify'],
     features: [
       { text: 'User authentication', icon: 'pi pi-user' },

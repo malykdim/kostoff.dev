@@ -1,0 +1,29 @@
+button, .btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  transition: border-color 0.25s;
+  background: var(--secondary);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
+
+  &:hover {
+      background: var(--dark);
+      color: white;
+  }
+  &:disabled {
+    opacity: 0.5;
+    color: var(--dark);
+    margin-top: 1rem;
+    background: var(--tooltips);
+    cursor: not-allowed;
+  }
+  &:focus,
+  &:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+}

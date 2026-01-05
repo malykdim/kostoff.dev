@@ -8,7 +8,6 @@
 </template>
 
 <style scoped lang="scss">
-@import '../../assets/style.scss';
 .footer {
 
   span {

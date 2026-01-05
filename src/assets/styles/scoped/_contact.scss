@@ -1,0 +1,42 @@
+@use '../tools/tooltip' as tt;
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    margin: 10rem auto;
+
+    .email, .link {
+      margin: 0;
+      padding: 0;
+    }
+    .email {
+        background: transparent;
+        color: var(--primary);
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: overline;
+        }
+
+        @media (max-width: 320px) {
+          align-self: center;
+          font-size: 1em;
+        }
+    }
+    .link {
+      cursor: pointer;
+      color: var(--light);
+      font-weight: 100;
+
+      &:hover {
+        text-decoration: overline;
+      }
+    }
+    .tooltip-right {
+      @include tt.tooltip(right, 15px);
+    }
+}
